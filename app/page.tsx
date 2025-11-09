@@ -412,7 +412,7 @@ export default function Home() {
                   }
                 }
               }}
-              className="cursor-pointer rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#199980] shadow-lg transition-all hover:bg-[#199980]/10"
+              className="cursor-pointer rounded-full bg-white px-8 py-4 text-lg font-semibold text-[#199980] shadow-lg transition-all hover:bg-slate-100"
             >
               Start Your Free Trial
             </motion.button>
@@ -494,7 +494,9 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-8 border-t border-slate-200 pt-8 text-center text-slate-600">
-            <p>&copy; 2024 RiniAI. All rights reserved.</p>
+            <p>
+              &copy; {new Date().getFullYear()} RiniAI. All rights reserved.
+            </p>
           </div>
         </div>
       </footer>
